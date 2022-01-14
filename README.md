@@ -49,14 +49,10 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -66,12 +62,15 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<p align="center">
+<img width="670" alt="event-tracker" src="https://user-images.githubusercontent.com/86213479/149592399-7c94ea90-c4d7-426a-a6ca-ec0a6d5eb2f1.png">
+</p>
 
 I started to learn React and this is a project I made in order to practice and solidy my React skills. You can filter from a list of events that you'd like to see. Currently the NASA API is only returning 4 types of events (wildefire, severe storms, earthquakes, and sea and lake ice) which is why those are the only options to filter from. 
 
-While the base of this project is guided by TraversyMedia's tutorial video, I've added extra functionality by creating extra components that will allow the user to filter the type of events they'd like to see.
+While the base of this project is guided by [TraversyMedia's tutorial video](https://www.youtube.com/watch?v=ontX4zfVqK8&list=PLillGF-RfqbY3c2r0htQyVbDJJoBFE6Rb&index=33&ab_channel=TraversyMedia), I've added extra functionality by allowing the user to filter the type of events they'd like to see.
+
+You may need to zoom out or move the map around to find your event. For example the "Sea and Lake Ice" events are located near the bottom of the map as that's where they would mostly form.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -110,7 +109,25 @@ While the base of this project is guided by TraversyMedia's tutorial video, I've
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+Clicking the event in the filter menu will toggle the event marker for each type of event. 
+
+<div align="center">
+<h3>Volcano's Off</h3>
+<img width="724" alt="natural-events-unclicked" src="https://user-images.githubusercontent.com/86213479/149593655-e591b6c2-0bf7-4a42-9545-6ba258822cb3.png">
+ </div>
+ 
+<div align="center">
+<h3>Volcano's On</h3>
+<img width="724" alt="natural-events-clicked" src="https://user-images.githubusercontent.com/86213479/149593732-5fd4772e-6f74-4333-9a74-efdc0996e28c.png">
+ </div>
+
+<div align="center">
+<h3>Open Location Info Box</h3>
+<img width="724" alt="location-info-box" src="https://user-images.githubusercontent.com/86213479/149594021-24de03a1-e8de-4fd6-934f-77a4bbb5706b.png">
+</div>
+<p>*The red box that is surrounding the event marker will not be there, I added that to the image to highlight that clicking on the marker will bring up the event location info</p*>
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
