@@ -1,13 +1,4 @@
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -21,8 +12,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://mhur0724.github.io/event-tracker/">
-  </a>
 
 <h3 align="center">Natural Event Tracker</h3>
 
@@ -107,8 +96,7 @@ You may need to zoom out or move the map around to find your event. For example 
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
-
+## How to Use
 
 Clicking the event in the filter menu will toggle the event marker for each type of event. 
 
