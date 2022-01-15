@@ -67,7 +67,7 @@ You may need to zoom out or move the map around to find your event. For example 
 
 ### Built With
 
-* [React.js](https://reactjs.org/)
+* [React](https://reactjs.org/)
 * CSS
 * [Google Map API](https://developers.google.com/maps/documentation/javascript/overview)
 * [NASA Event Tracker API](https://eonet.gsfc.nasa.gov/docs/v2.1)
