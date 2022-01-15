@@ -1,3 +1,4 @@
+# Natural Event Tracker
 <div id="top"></div>
 
 <!-- PROJECT SHIELDS -->
@@ -12,8 +13,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-
-<h3 align="center">Natural Event Tracker</h3>
 
   <p align="center">
  A React based Natural Event Tracker (inspired by TraversyMedia) that calls the Google Maps and NASA events tracker API to generate a map that shows the location and general information of any specified event (wildfire, sea and lake ice, volcano, or storm).
